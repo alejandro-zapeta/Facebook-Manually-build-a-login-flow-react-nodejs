@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HttpClient from "./HttpClient.js"
 
-const FB_ID = "125385812817807";
+const FB_ID = "";
 const redirectUri = "http://localhost:8080/test"; // tricky test.  
 
 function FbLogin() {
