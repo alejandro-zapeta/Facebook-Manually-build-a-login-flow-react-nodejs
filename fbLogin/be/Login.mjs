@@ -7,9 +7,9 @@ app.use(bodyParser.json());
 const port = 5050;
 
 // you will need this 3 keys
-const FB_ID = "125385812817807";
-const FB_SECRET = "04f52aacd0185aa4ae7a37dce445ff93";
-const FB_APP_TOKEN = "125385812817807|0wzHaUa8grgAQiP3DiXlcmMxjYM";
+const FB_ID = "";
+const FB_SECRET = "";
+const FB_APP_TOKEN = "";
 
 const buildUrlFbInspectToken = (token) => `https://graph.facebook.com/debug_token?input_token=${token}&access_token=${FB_APP_TOKEN}`
 const buildUrlFbMe = (FB_ID_PERSON, token) => `https://graph.facebook.com/${FB_ID_PERSON}?fields=id,name,email&access_token=${token}`
